@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>金铲铲 S18 阵容决策树</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <p class="eyebrow">《金铲铲之战》S18 V1</p>
+        <h1>金铲铲 S18 阵容决策树</h1>
+        <p class="subtitle">从装备方向或特殊转职/海克斯入口，查看对应的候选阵容。</p>
+
+        <div class="search-bar">
+          <input id="searchInput" type="search" placeholder="输入阵容名称，例如：神谕莲华阿狸" aria-label="搜索阵容" />
+          <button id="searchBtn" type="button">定位</button>
+        </div>
+        <p id="searchHint" class="search-hint">支持搜索全部 9 套 S18 阵容</p>
+      </header>
+
+      <section class="info-card">
+        <div class="legend" aria-label="节点类型说明">
+          <span class="legend-item"><i class="dot hx"></i>特殊条件/根节点</span>
+          <span class="legend-item"><i class="dot gear"></i>装备方向</span>
+          <span class="legend-item"><i class="dot comp"></i>阵容节点</span>
+        </div>
+        <div id="tree" class="tree"></div>
+      </section>
+
+      <aside class="detail-panel" id="detailPanel">
+        <h2>当前路径</h2>
+        <p id="pathText">请选择一个入口或阵容节点查看路径。</p>
+      </aside>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

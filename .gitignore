@@ -1,0 +1,20 @@
+# Unrelated directories in this shared workspace
+/001/
+/柳工表弟/
+
+# Dependencies and local tooling
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local test artifacts
+.chrome-test-profile/
