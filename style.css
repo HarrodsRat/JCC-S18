@@ -1,12 +1,12 @@
 :root {
   color-scheme: dark;
-  --bg: #07111f;
-  --panel: rgba(11, 24, 44, 0.92);
+  --bg: #071a12;
+  --panel: rgba(10, 35, 24, 0.92);
   --panel-2: rgba(255, 255, 255, 0.06);
   --border: rgba(255, 255, 255, 0.12);
   --text: #f7f7f7;
-  --muted: #9bb0c9;
-  --hx: #35b7ff;
+  --muted: #a2c5b2;
+  --hx: #3ddc84;
   --gear: #9c6bff;
   --comp: #ffb84d;
   --success: #60d394;
@@ -19,7 +19,7 @@
 body {
   margin: 0;
   font-family: "Microsoft YaHei", Arial, sans-serif;
-  background: linear-gradient(135deg, #08101d, #0f2744);
+  background: linear-gradient(135deg, #07150e, #123d29);
   color: var(--text);
   min-height: 100vh;
 }
@@ -89,8 +89,8 @@ h1 {
   border: none;
   border-radius: 999px;
   padding: 0.8rem 1rem;
-  background: linear-gradient(135deg, var(--hx), #5fd8ff);
-  color: #04111d;
+  background: linear-gradient(135deg, var(--hx), #78e6a8);
+  color: #052016;
   font-weight: 700;
   cursor: pointer;
 }
@@ -164,8 +164,8 @@ h1 {
 }
 
 .node--hx {
-  background: linear-gradient(135deg, rgba(53, 183, 255, 0.2), rgba(53, 183, 255, 0.08));
-  border-color: rgba(53, 183, 255, 0.3);
+  background: linear-gradient(135deg, rgba(61, 220, 132, 0.2), rgba(61, 220, 132, 0.08));
+  border-color: rgba(61, 220, 132, 0.3);
 }
 
 .node--gear {
